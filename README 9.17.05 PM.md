@@ -6,7 +6,7 @@
 
 * Each time the game loads there is a random number between 19 and 120 that is generated and displayed on the page.
 
-* Each time the game loads and reloads after win/loss, there is a different random value assigned to each crystal button.
+* Each time the game loads and reloads after win/loss, there is a different random number between 1 and 12 assigned to each crystal button.
 
 * When each crystal is clicked, its value is added to the total score which is displayed on the page.
 
