@@ -1,0 +1,109 @@
+h1 {
+    margin: auto;
+    text-align: center;
+    font-size: 45px;
+    color: #2F4F4F;
+}
+
+.top-row {
+    width: 100%;
+    background-color: white;
+    margin-bottom: 50px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    border-bottom: solid 1px #C0C0C0;
+}
+
+body {
+    background-image: url(../images/tiny-squares.png);
+    font-family: 'Space Mono', monospace;
+}
+
+
+.instructions {
+    background-color: white;
+    margin: auto;
+    width: 700px;
+    border: solid 1px #C0C0C0;
+    padding: 10px;
+    padding-left: 35px;
+    line-height: 25px;
+    list-style-type: square;
+    margin-bottom: 50px;
+}
+
+ul {
+    list-style-type: square;
+    color: #2F4F4F;
+}
+
+.wins-losses-box {
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 45px;
+    width: 175px;
+    font-size: 30px;
+    color: #2F4F4F;
+    border: solid 1px #C0C0C0;
+    padding: 10px;
+}
+
+.crystal-boxes {
+    text-align: center;
+    margin: 20px;
+}
+
+
+
+#bottom-box {
+    background-color: white;
+    width: 500px;
+    height: 80px;
+    border: #C0C0C0 1px solid;
+    margin: auto;
+    color: #2F4F4F;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.bottom-box-left {
+    float: left;
+}
+
+.score-number-box {
+    font-size: 40px;
+    padding-top: 10px;
+}
+.total-score-box {
+    font-size: 30px;
+}
+.bottom-box-right {
+    float: right;
+}
+
+.target-number-box {
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.random-number-box {
+    font-size: 30px;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    color: lightgray;
+    border-top: solid 1px #C0C0C0;
+    height: 60px;
+    font-size: 13px;
+    position: static;
+    bottom: 0px;
+}
+
+.foot {
+    padding-top: 23px;
+}

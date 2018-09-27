@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Crystals Collector</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="assets/javascript/game.js" type="text/javascript"></script>
+    </head>
+<body>
+    <div class="top-row">
+    <h1>Crystal Collector</h1>
+    </div>
+    
+    <div class ="instructions">
+        <ul>
+        <li>You will be given a target number at the start of the game.</li>
+        <li>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your number.</li>
+        <li>You win the game by matching your number to the target number. You lose the game if your number goes above the target number.</li>
+        <li>The value of each crystal changes each game and is hidden from you until you click on it.</li>
+        </ul>
+    </div>
+    
+    
+    
+    <div class = "crystal-boxes">
+        <button type="button" id="red-crystal" class="button"><img src="assets/images/red-crystal.jpg" height=200 width = 200></button>
+        <button type="button" id="blue-crystal" class="button"><img src = "assets/images/blue-crystal.jpg" height=200 width = 200></button>
+        <button type="button" id="green-crystal" class="button"><img src = "assets/images/green-crystal.jpg" height=200 width = 200></button>
+        <button type="button" id="purple-crystal" class="button"><img src = "assets/images/purple-crystal.jpg" height=200 width = 200></button>
+    </div>
+    
+    
+    <div id="bottom-box">
+        <div class="bottom-box-left">
+            <div class="total-score-box">
+                <p>Your Number:</p>
+            </div>
+            
+            <div class="score-number-box">
+                <p><span id="score-number"></span></p>
+            </div>
+        </div>
+        
+        <div class="bottom-box-right">
+            <div class = "random-number-box">
+                <p>Target Number:</p>
+            </div>
+            
+            <div class="target-number-box">
+                <p><span id= "random-number"></span></p>
+            </div>
+        </div>
+    </div>
+    
+    <div class = "wins-losses-box">
+        <p>Wins: <span id="wins-total"></span></p>
+        <p>Losses: <span id="losses-total"></span></p>
+    </div>
+
+    <footer>
+            <div class="foot">Copyright &copy;</div>
+    </footer>
+
+</body>
+</html>
